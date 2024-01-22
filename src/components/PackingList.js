@@ -13,8 +13,6 @@ export default function PackingList({
 
   if (sortBy === "input") sortedItems = items;
 
-  // sorts items -need to look it up more closely maybe Bard to explain it ,both description and packed and also look up these methods in FCC
-  //practice Array methods ,most of them regulary as they are super important in React and generally
   if (sortBy === "description")
     sortedItems = items
       .slice()
